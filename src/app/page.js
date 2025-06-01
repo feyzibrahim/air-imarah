@@ -1,3 +1,4 @@
+import HomePage from "@/Components/HomePage";
 import Navbar from "@/Components/Navbar";
 
 
@@ -6,6 +7,8 @@ export default function Home() {
     <div>
       <main>
        <Navbar/>
+
+       <HomePage/>
       </main>
     
     </div>
