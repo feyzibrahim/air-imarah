@@ -1,6 +1,7 @@
 import AboutPage from "@/Components/AboutPage";
 import Blogs from "@/Components/Blogs";
 import Booking from "@/Components/Booking";
+import Contact from "@/Components/Contact";
 import Destinations from "@/Components/Destinations";
 import HomePage from "@/Components/HomePage";
 import Navbar from "@/Components/Navbar";
@@ -51,6 +52,15 @@ export default function Home() {
 
  <div className="pt-12">
   <Blogs/>
+  </div>
+
+
+   <div className="pt-12">
+  <Contact/>
+  </div>
+
+   <div className="pt-12">
+ 
   </div>
 
       </main>
