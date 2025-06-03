@@ -3,6 +3,7 @@ import Blogs from "@/Components/Blogs";
 import Booking from "@/Components/Booking";
 import Contact from "@/Components/Contact";
 import Destinations from "@/Components/Destinations";
+import FooterPage from "@/Components/FooterPage";
 import HomePage from "@/Components/HomePage";
 import Navbar from "@/Components/Navbar";
 import Packages from "@/Components/Packages";
@@ -60,7 +61,7 @@ export default function Home() {
   </div>
 
    <div className="pt-12">
- 
+     <FooterPage/>
   </div>
 
       </main>
