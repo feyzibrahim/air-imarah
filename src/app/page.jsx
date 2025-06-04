@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 import HomePage from "@/components/home-page";
 import Navbar from "@/components/navbar";
 import Packages from "@/components/packages";
-import Testimonial from "@/Components/Testimonial";
+import Testimonial from "@/components/testimonial";
 import Users from "@/components/users";
 
 export default function Home() {
