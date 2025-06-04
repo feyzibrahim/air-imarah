@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "../components/ui/button";
+import { Button } from "@/component/ui/button";
 import { Calendar } from "lucide-react";
 
 function HomePage() {

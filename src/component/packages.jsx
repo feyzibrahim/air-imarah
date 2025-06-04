@@ -4,7 +4,7 @@ import {
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/component/ui/carousel";
 import Image from "next/image";
 
 const destinations = [
