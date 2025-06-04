@@ -11,7 +11,7 @@ import {
 	X,
 	PhoneCall,
 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../components/ui/button";
 
 function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false);
