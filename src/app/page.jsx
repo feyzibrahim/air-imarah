@@ -1,14 +1,14 @@
-import AboutPage from "@/components/about-page";
-import Blogs from "@/components/blogs";
-import Booking from "@/components/bookings";
-import Contact from "@/components/contact";
-import Destinations from "@/components/destination";
-import Footer from "@/components/footer";
-import HomePage from "@/components/home-page";
-import Navbar from "@/components/navbar";
-import Packages from "@/components/packages";
-import Testimonial from "@/components/testimonial";
-import Users from "@/components/users";
+import AboutPage from "../components/about-page";
+import Blogs from "../components/blogs";
+import Booking from "../components/bookings";
+import Contact from "../components/contact";
+import Destinations from "../components/destination";
+import Footer from "../components/footer";
+import HomePage from "../components/home-page";
+import Navbar from "../components/navbar";
+import Packages from "../components/packages";
+import Testimonial from "../components/testimonial";
+import Users from "../components/users";
 
 export default function Home() {
 	return (
