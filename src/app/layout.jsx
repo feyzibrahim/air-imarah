@@ -31,7 +31,7 @@ const alexBrush = Alex_Brush({
 
 export const metadata = {
 	title: "Air Imarah",
-	description: " create by  next app",
+	description: "Fly Beyond Your Limits",
 };
 
 export default function RootLayout({ children }) {
