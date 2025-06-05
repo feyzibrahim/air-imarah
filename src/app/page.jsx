@@ -1,7 +1,6 @@
 import AboutPage from "@/component/about-page";
 import Blogs from "@/component/blogs";
 import Booking from "@/component/bookings";
-import Contact from "@/component/contact";
 import Destinations from "@/component/destination";
 import Footer from "@/component/footer";
 import HomePage from "@/component/home-page";
@@ -47,10 +46,6 @@ export default function Home() {
 
 				<div className="pt-12">
 					<Blogs />
-				</div>
-
-				<div className="pt-12">
-					<Contact />
 				</div>
 
 				<div className="pt-12">

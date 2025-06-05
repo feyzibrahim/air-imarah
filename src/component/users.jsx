@@ -34,11 +34,13 @@ export default function Users() {
 						key={i}
 						className="bg-white border shadow-lg rounded-xl overflow-hidden w-[200px] p-5 transition hover:scale-105 flex flex-col items-center text-center space-y-2"
 					>
-						<div className="text-white bg-teal-800 p-5 rounded-3xl">
-							{d.icon}
+						<div className="flex items-center justify-center bg-teal-50 rounded-full p-2">
+							<div className="text-white bg-teal-800 p-5 rounded-full">
+								{d.icon}
+							</div>
 						</div>
-						<h3 className="font-semibold text-xl">{d.title}</h3>
-						<p className="text-gray-500 text-sm">{d.Subtitle}</p>
+						<h3 className="font-semibold text-2xl font-grotesk">{d.title}</h3>
+						<p className="text-gray-500 text-sm font-mulish">{d.Subtitle}</p>
 					</div>
 				))}
 			</div>

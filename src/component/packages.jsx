@@ -69,8 +69,8 @@ function Packages() {
 						</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious />
-				<CarouselNext />
+				{/* <CarouselPrevious />
+				<CarouselNext /> */}
 			</Carousel>
 		</div>
 	);

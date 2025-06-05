@@ -20,7 +20,7 @@ function Navbar() {
 		<div>
 			{/* set1 */}
 			<div
-				className="flex flex-col md:flex-row text-white text-sm w-full space-between items-center justify-between py-2 px-62"
+				className="flex flex-col md:flex-row text-white text-sm w-full space-between items-center justify-between py-2 md:px-62"
 				style={{
 					background: "linear-gradient(-40deg, #000 50%, #0f766e 50%)",
 				}}
@@ -61,10 +61,10 @@ function Navbar() {
 			</div>
 
 			{/* set2 */}
-			<div className="sticky top-0 z-50 bg-white flex flex-col sm:flex-row items-center justify-between py-2 shadow px-62">
+			<div className="sticky top-0 z-50 bg-white flex flex-col sm:flex-row items-center justify-between py-2 shadow md:px-62">
 				{/* Branding */}
 				<div className="self-start md:self-center">
-					<p className="text-teal-700 font-semibold text-2xl md:ml-2 font-grotesk">
+					<p className="text-teal-700 font-semibold text-2xl ml-2 font-grotesk">
 						Air Imarah
 					</p>
 				</div>

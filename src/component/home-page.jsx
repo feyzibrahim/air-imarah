@@ -27,7 +27,7 @@ function HomePage() {
 
 			{/* Right - Image Grid */}
 			<div className="flex-1 ">
-				<div className="flex items-center gap-5 w-fit">
+				<div className="flex items-center gap-5 w-fit p-5">
 					<div className="space-y-5 flex-1">
 						<Image
 							src="/images/image1.png"
@@ -47,7 +47,7 @@ function HomePage() {
 					<Image
 						src="/images/image3.png"
 						alt="Trip"
-						className="rounded-xl h-80 w-50 object-cover"
+						className="rounded-xl h-80 md:w-50 object-cover"
 						width={200}
 						height={150}
 					/>
