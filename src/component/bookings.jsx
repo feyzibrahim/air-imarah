@@ -1,5 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { Button } from "./ui/button";
 
 function Booking() {
 	return (
@@ -21,10 +23,18 @@ function Booking() {
 				<p className="text-base md:text-lg mb-4 font-mulish">
 					Book your perfect destination now and enjoy exclusive offers.
 				</p>
-				<button className="bg-white text-teal-800 py-2 px-5 rounded-full text-sm font-semibold">
-					Book Now
-					<ArrowRight className="inline ml-2" size={16} />
-				</button>
+				<a
+					href="https://wa.me/971503303771"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Button className="bg-white text-teal-800 hover:bg-teal-100 cursor-pointer rounded-full px-5 font-bold">
+						Book Now
+						<span>
+							<IoLogoWhatsapp />
+						</span>
+					</Button>
+				</a>
 			</div>
 		</div>
 	);

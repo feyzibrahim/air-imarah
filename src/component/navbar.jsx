@@ -3,9 +3,8 @@ import { Button } from "@/component/ui/button";
 import { Mail, Menu, Phone, X } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import SocialMedia from "./social-media";
 
 export default function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -39,52 +38,7 @@ export default function Navbar() {
 				</div>
 
 				{/* Right side */}
-				<div className="flex items-center gap-3 py-2">
-					<a
-						href="https://facebook.com/airimarahtourismllc"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Facebook"
-					>
-						<FaFacebookF
-							size={25}
-							className="bg-teal-700 hover:bg-teal-800 rounded-full p-[5px]"
-						/>
-					</a>
-					<a
-						href="https://twitter.com/airimarahtourismllc"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Twitter"
-					>
-						<FaTwitter
-							size={25}
-							className="bg-teal-700 hover:bg-teal-800 rounded-full p-[5px]"
-						/>
-					</a>
-					<a
-						href="https://youtube.com/@airimarahtourismllc"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="YouTube"
-					>
-						<FaYoutube
-							size={25}
-							className="bg-teal-700 hover:bg-teal-800 rounded-full p-[5px]"
-						/>
-					</a>
-					<a
-						href="https://instagram.com/airimarahtourismllc"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Instagram"
-					>
-						<AiFillInstagram
-							size={25}
-							className="bg-teal-700 hover:bg-teal-800 rounded-full p-[4px]"
-						/>
-					</a>
-				</div>
+				<SocialMedia />
 			</div>
 
 			{/* set2 */}
