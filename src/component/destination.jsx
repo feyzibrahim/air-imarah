@@ -4,12 +4,36 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const images = [
-	"/images/image1.png",
-	"/images/image2.png",
-	"/images/image3.png",
-	"/images/image5.png",
-	"/images/image7.png",
-	"/images/imag4.png",
+	{
+		image: "/images/3d-icon-traveling-vacation.jpg",
+		title: "Tour Packages",
+		description: "Explore our exclusive tour packages.",
+	},
+	{
+		image: "/images/top-view-travel-elements-collection.jpg",
+		title: "Ticket Booking",
+		description: "Book your tickets with ease and convenience.",
+	},
+	{
+		image: "/images/10811.jpg",
+		title: "Hotel Booking",
+		description: "Find the perfect hotel for your stay.",
+	},
+	{
+		image: "/images/visa-application-form-composition.jpg",
+		title: "Visa Stamping",
+		description: "Get your visa stamped hassle-free.",
+	},
+	{
+		image: "/images/man-preparing-travel.jpg",
+		title: "Passport service",
+		description: "Get your passport processed quickly and easily.",
+	},
+	{
+		image: "/images/physician-noting-down-symptoms-patient.jpg",
+		title: "Medical registration",
+		description: "Get your medical registration done with ease.",
+	},
 	// Add more images if you want
 ];
 
@@ -36,11 +60,9 @@ export default function Destinations() {
 
 	return (
 		<div className="text-center py-10 bg-gradient-to-b from-blue-50 to-white">
-			<p className="text-teal-500 italic mb-2 font-brush text-2xl">
-				Best Places For Your Party
-			</p>
+			<p className="text-teal-500 italic mb-2 font-brush text-2xl">Services</p>
 			<h2 className="text-3xl font-bold mb-10 font-grotesk">
-				Place That Accommodates Your Guest
+				Tours & Travel Services
 			</h2>
 
 			<div className="relative w-full mx-auto overflow-hidden h-72">
@@ -51,14 +73,18 @@ export default function Destinations() {
 						transform: `translateX(-${current * (100 / images.length)}%)`,
 					}}
 				>
-					{images.concat(images.slice(0, VISIBLE_COUNT)).map((src, idx) => (
+					{images.concat(images.slice(0, VISIBLE_COUNT)).map((img, idx) => (
 						<div
 							key={idx}
 							style={{ width: `${100 / images.length}%` }}
 							className="h-72 relative flex-shrink-0"
 						>
+							<div className="absolute text-left bottom-5 left-5 bg-white p-2 w-[90%] rounded-lg shadow-lg z-10">
+								<h1 className="font-semibold">{img.title}</h1>
+								<p className="text-gray-600 text-xs">{img.description}</p>
+							</div>
 							<Image
-								src={src}
+								src={img.image}
 								alt={`Trip ${idx + 1}`}
 								className="w-full h-72 object-cover"
 								width={500}
