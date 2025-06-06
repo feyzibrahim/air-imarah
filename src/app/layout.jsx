@@ -1,4 +1,11 @@
-import { Geist, Geist_Mono, Mulish, Space_Grotesk, Alex_Brush } from "next/font/google";
+import {
+	Geist,
+	Geist_Mono,
+	Mulish,
+	Space_Grotesk,
+	Alex_Brush,
+	Montserrat,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,6 +36,12 @@ const alexBrush = Alex_Brush({
 	weight: ["400"], // Alex Brush only has 400
 });
 
+const montserrat = Montserrat({
+	variable: "--font-montserrat",
+	subsets: ["latin"],
+	weight: ["400", "700"], // adjust weights as needed
+});
+
 export const metadata = {
 	title: "Air Imarah",
 	description: "Fly Beyond Your Limits",
@@ -44,8 +57,8 @@ export default function RootLayout({ children }) {
           ${mulish.variable}
           ${spaceGrotesk.variable}
           ${alexBrush.variable}
+		   ${montserrat.variable}
           antialiased
-		  font-mulish
         `}
 			>
 				{children}

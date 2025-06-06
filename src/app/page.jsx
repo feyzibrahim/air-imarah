@@ -1,3 +1,4 @@
+"use client";
 import AboutPage from "@/component/about-page";
 import Blogs from "@/component/blogs";
 import Booking from "@/component/bookings";
@@ -6,10 +7,25 @@ import Footer from "@/component/footer";
 import HomePage from "@/component/home-page";
 import Navbar from "@/component/navbar";
 import Packages from "@/component/packages";
+import SplashScreen from "@/component/splash-screen";
 import Testimonial from "@/component/testimonial";
 import Users from "@/component/users";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+	const [showSplash, setShowSplash] = useState(true);
+	useEffect(() => {
+		const timeout = setTimeout(() => {
+			setShowSplash(false);
+		}, 3000); // Show splash for 2 seconds
+
+		return () => clearTimeout(timeout);
+	}, []);
+
+	if (showSplash) {
+		return <SplashScreen />;
+	}
+
 	return (
 		<div>
 			<main>
