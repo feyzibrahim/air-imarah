@@ -76,7 +76,7 @@ export default function Destinations() {
 					{images.concat(images.slice(0, VISIBLE_COUNT)).map((img, idx) => (
 						<div
 							key={idx}
-							style={{ width: `${100 / images.length}%` }}
+							// style={{ width: `${100 / images.length}%` }}
 							className="h-72 relative flex-shrink-0"
 						>
 							<div className="absolute text-left bottom-5 left-5 bg-white p-2 w-[90%] rounded-lg shadow-lg z-10">
