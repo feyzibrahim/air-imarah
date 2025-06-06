@@ -4,6 +4,7 @@ import { GoClockFill } from "react-icons/go";
 import { MdMail } from "react-icons/md";
 import Contact from "./contact";
 import SocialMedia from "./social-media";
+import Image from "next/image";
 
 export default function Footer() {
 	return (
@@ -14,7 +15,10 @@ export default function Footer() {
 				<div className="flex flex-col md:flex-row justify-between gap-8">
 					{/* Logo & Description */}
 					<div className="flex-1">
-						<p className="text-xl font-bold mb-2">Air Imarah</p>
+						<Image src="/logo.png" alt="Air Imarah" width={50} height={50} />
+						<p className="text-xl font-bold mb-2 text-[#328687]">
+							Air Imarah
+						</p>
 						<p className="text-gray-600">Fly Beyond Your Limits</p>
 						<SocialMedia />
 					</div>
