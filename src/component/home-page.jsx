@@ -42,7 +42,7 @@ function HomePage() {
 
 			{/* Right - Image Grid */}
 			<div className="flex-1 relative flex justify-center items-center">
-				<div className="absolute top-1/2 left-1/2 h-40 w-40 bg-[#328687] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2">
+				{/* <div className="absolute top-1/2 left-1/2 h-40 w-40 bg-[#328687] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2">
 					<svg
 						width="160"
 						height="160"
@@ -75,7 +75,7 @@ function HomePage() {
 					<div className="h-20 w-20 bg-white rounded-full flex items-center justify-center relative z-10">
 						<Send className="text-teal-700" size={34} />
 					</div>
-				</div>
+				</div> */}
 				<div className="flex items-center gap-5 w-fit p-5">
 					<div className="space-y-5 flex-1">
 						<Image

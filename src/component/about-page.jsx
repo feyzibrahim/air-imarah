@@ -8,7 +8,7 @@ function AboutPage() {
 	return (
 		<div className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 py-10 max-w-7xl mx-auto gap-10 pt-8">
 			{/* Right - Image Grid */}
-			<div className="flex-1 flex justify-center gap-4 pt-14">
+			{/* <div className="flex-1 flex justify-center gap-4 pt-14">
 				<div className="w-72 p-2 bg-white shadow-2xl rounded-full">
 					<Image
 						src="/images/close-up-people-holding-map.jpg"
@@ -37,6 +37,33 @@ function AboutPage() {
 							height={100}
 						/>
 					</div>
+				</div>
+			</div> */}
+
+			<div className="flex  items-center gap-5 w-fit p-5">
+				<Image
+					src="/images/selective-focus-miniature-tourist-compass-map-with-plastic-toy-airplane-abstract-background-travel-concept.jpg"
+					alt="Trip"
+					className="rounded-xl h-80 w-50 md:w-50 object-cover"
+					width={500}
+					height={150}
+				/>
+
+				<div className="space-y-5 flex-1">
+					<Image
+						src="/images/close-up-people-holding-map.jpg"
+						alt="Trip"
+						className="rounded-xl w-50 h-56 object-cover"
+						width={500}
+						height={150}
+					/>
+					<Image
+						src="/images/top-view-passport-tickets-arrangement.jpg"
+						alt="Trip"
+						className="rounded-xl w-50 h-36 object-cover"
+						width={200}
+						height={150}
+					/>
 				</div>
 			</div>
 
