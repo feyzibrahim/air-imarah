@@ -27,7 +27,14 @@ const destinations = [
 
 export default function Users() {
 	return (
-		<div className="text-center py-10">
+		<div
+			className="text-center pt-20 pb-32"
+			style={{
+				backgroundImage: "url('/map-image-2.png')",
+				backgroundSize: "cover",
+				backgroundPosition: "center",
+			}}
+		>
 			<div className="flex flex-wrap justify-center gap-6">
 				{destinations.map((d, i) => (
 					<div

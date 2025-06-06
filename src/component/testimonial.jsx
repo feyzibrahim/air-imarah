@@ -14,25 +14,25 @@ export default function Testimonial() {
 				{/* Right - Image Grid */}
 				<div className="flex flex-col md:flex-row gap-5 items-end">
 					<Image
-						src="/images/image2.png"
+						src="/images/close-up-airplane-wing.jpg"
 						alt="Trip"
 						className="rounded-xl w-full md:w-40 h-60 object-cover"
-						width={200}
-						height={200}
+						width={500}
+						height={500}
 					/>
 					<Image
-						src="/images/image1.png"
+						src="/images/airport-terminal.jpg"
 						alt="Trip"
 						className="rounded-xl w-full md:w-40 h-60 object-cover"
-						width={200}
-						height={200}
+						width={500}
+						height={500}
 					/>
 					<Image
-						src="/images/image3.png"
+						src="/images/traveling-concept-with-landmarks.jpg"
 						alt="Trip"
 						className="rounded-xl w-full h-96 object-cover"
-						width={200}
-						height={200}
+						width={500}
+						height={500}
 					/>
 				</div>
 

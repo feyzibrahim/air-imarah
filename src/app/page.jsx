@@ -20,19 +20,19 @@ export default function Home() {
 					<HomePage />
 				</div>
 
-				<div className="pt-10">
+				<div className="pt-10" id="about-us">
 					<AboutPage />
 				</div>
 
-				<div className="pt-12">
+				<div className="pt-12" id="popular">
 					<Packages />
 				</div>
 
-				<div className="pt-12">
+				<div className="pt-12" id="services">
 					<Users />
 				</div>
 
-				<div className="pt-12">
+				<div className="">
 					<Destinations />
 				</div>
 
@@ -44,12 +44,15 @@ export default function Home() {
 					<Booking />
 				</div>
 
-				<div className="pt-12">
+				<div className="pt-12" id="testimonials">
 					<Blogs />
 				</div>
 
 				<div className="pt-12">
 					<Footer />
+				</div>
+				<div className="flex items-center justify-center w-full py-3 text-xs text-white font-bold font-mulish bg-teal-800">
+					<p>© 2025 All rights reserved</p>
 				</div>
 			</main>
 		</div>

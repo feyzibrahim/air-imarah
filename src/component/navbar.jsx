@@ -73,24 +73,20 @@ export default function Navbar() {
                         shadow-md sm:shadow-none text-sm
                     `}
 				>
-					<a
-						href="/"
-						className="font-semibold "
-						style={{ color: "rgba(108, 108, 108, 1)" }}
-					>
+					<a href="/" className="font-semibold ">
 						Home
 					</a>
-					<a href="/about" className="font-semibold shrink-0 ">
+					<a href="#about-us" className="font-semibold shrink-0 ">
 						About Us
 					</a>
-					<a href="/host" className="font-semibold shrink-0 ">
-						Host A Venue
+					<a href="#popular" className="font-semibold shrink-0 ">
+						Popular Destinations
 					</a>
-					<a href="/hotels" className="font-semibold shrink-0 ">
-						Hotels
+					<a href="#services" className="font-semibold shrink-0 ">
+						Services
 					</a>
-					<a href="/blog" className="font-semibold shrink-0 ">
-						Blog
+					<a href="#testimonials" className="font-semibold shrink-0 ">
+						Testimonials
 					</a>
 
 					<a
